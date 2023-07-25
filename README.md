@@ -1,6 +1,6 @@
 **Readme.md - Biblioteca**
 
-![Biblioteca](./Modelagem%20DBDiagram.png)
+![Biblioteca](modelagem_dbDiagram.png)
 
 ## Descrição
 
@@ -33,9 +33,9 @@ O banco de dados utilizado neste projeto é o MySQL. Abaixo estão as tabelas cr
 
 A modelagem do banco de dados foi feita utilizando o dbDiagram, um formato simples e intuitivo para representar a estrutura do banco de dados. Abaixo está o diagrama com todas as entidades e relacionamentos criados para este projeto:
 
-![Biblioteca](./Modelagem%20DBDiagram.png)
+![Biblioteca](Modelagem%20DBDiagram.png)
 
-- Você pode verificar a estrutura, Relacionamentos aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro]
+- Você pode verificar a estrutura, Relacionamentos aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro](https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro)
 
 ```
 Table Livro {
