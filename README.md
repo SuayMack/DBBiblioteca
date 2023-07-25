@@ -111,5 +111,6 @@ Você pode verificar o código para inserir dados na tabela no arquivo populando
 
 - Documentação do MySQL Workbench: [https://dev.mysql.com/doc/workbench/en/](https://dev.mysql.com/doc/workbench/en/)
 - Documentação do dbDiagram: [https://dbdiagram.io/d](https://dbdiagram.io/d)
+- Livros: [https://www.amazon.com.br/](https://www.amazon.com.br/)
 
 Feito com 💜 por Priscila Chueryz
