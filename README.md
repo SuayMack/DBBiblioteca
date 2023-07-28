@@ -1,11 +1,11 @@
 **Readme.md - Biblioteca**
 
-![Biblioteca](./img/modelagem_dbDiagram.png)
+![Biblioteca](./img/diagrama_relacionamento.png)
 
 ## Descrição
 
 Bem-vindo ao repositório da Biblioteca! Este projeto é um requisito do curso de Formação Web Dev Fullstack - Resilia com o intuito de colocarmos em prática todo conteúdo estudado no módulo 3 do curso.
-Biblioteca é um banco de dados construído utilizando MySQL Workbench para modelagem do mesmo e foi desenvolvido para armazenar informações sobre livros, autores e empréstimos em uma biblioteca. Aqui estão as principais informações e instruções para você começar a utilizar o projeto.
+Biblioteca é um banco de dados construído utilizando MySQL Workbench e para modelagem foi utilizado o dbDiagram, foi desenvolvido para armazenar informações sobre livros, autores e empréstimos em uma biblioteca. Aqui estão as principais informações e instruções para você começar a utilizar o projeto.
 
 ## Requisitos
 
