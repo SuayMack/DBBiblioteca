@@ -1,6 +1,6 @@
 **Readme.md - Biblioteca**
 
-![Biblioteca](modelagem_dbDiagram.png)
+![Biblioteca](./img/modelagem_dbDiagram.png)
 
 ## Descrição
 
@@ -33,7 +33,7 @@ O banco de dados utilizado neste projeto é o MySQL. Abaixo estão as tabelas cr
 
 A modelagem do banco de dados foi feita utilizando o dbDiagram, um formato simples e intuitivo para representar a estrutura do banco de dados. Abaixo está o diagrama com todas as entidades e relacionamentos criados para este projeto:
 
-![Biblioteca](modelagem_dbDiagram.png)
+![Biblioteca](./img/modelagem_dbDiagram.png)
 
 - Você pode verificar a estrutura, Relacionamentos aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro](https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro)
 
@@ -105,7 +105,7 @@ git clone https://github.com/SuayMack/DBBiblioteca.git
 ## Preenchimento das Tabelas
 
 Para garantir a funcionalidade e testar o banco de dados, foram inseridos registros nas tabelas. Cada tabela possui pelo menos 5 registros, o que permite uma melhor avaliação do funcionamento da aplicação.
-Você pode verificar o código para inserir dados na tabela no arquivo populando_db_biblioteca.sql.
+Você pode verificar o código para inserir dados na tabela no arquivo `populando_db_biblioteca.sql`.
 
 ## Referências
 
