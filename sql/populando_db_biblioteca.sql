@@ -37,7 +37,7 @@ VALUES
   (4, 'Morgan Kaufmann', 'Massachusetts, USA', '+1 617-928-2500'),
   (5, 'O''Reilly Media', 'California, USA', '+1 800-998-9938');
 
--- Populando a tabela LivroAutorEditora
+-- Inserindo registros na tabela LivroAutorEditora
 INSERT INTO LivroAutorEditora (LivroID, AutorID, EditoraID)
 VALUES
   (1, 1, 1),
@@ -46,7 +46,7 @@ VALUES
   (4, 4, 4),
   (5, 5, 5);
 
--- Populando a tabela Usuario
+-- Inserindo registros na tabela Usuario
 INSERT INTO Usuario (Nome, Email, Senha, DataCadastro)
 VALUES
   ('João Silva', 'joao.silva@example.com', 'senha123', '2022-01-01'),
@@ -55,7 +55,7 @@ VALUES
   ('Ana Santos', 'ana.santos@example.com', 'senhaabc', '2022-04-01'),
   ('Pedro Lima', 'pedro.lima@example.com', 'senhaxyz', '2022-05-01');
 
--- Populando a tabela Emprestimo
+-- Inserindo registros na tabela Emprestimo
 INSERT INTO Emprestimo (LivroID, UsuarioID, DataEmprestimo, DataDevolucao)
 VALUES
   (1, 1, '2022-01-01', '2022-01-10'),
@@ -63,3 +63,9 @@ VALUES
   (3, 3, '2022-03-01', '2022-03-15'),
   (4, 4, '2022-04-01', '2022-04-06'),
   (5, 5, '2022-05-01', '2022-05-12');
+
+-- Inserindo registros na tabela Emprestimo para melhor visualização do Power BI
+INSERT INTO Emprestimo (LivroID, UsuarioID, DataEmprestimo, DataDevolucao)
+VALUES
+  (9, 1, '2023-07-10', '2023-07-28'),
+  (12, 2, '2023-07-12', '2023-07-28');
