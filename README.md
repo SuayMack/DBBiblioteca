@@ -1,10 +1,10 @@
 **Readme.md - Biblioteca**
 
-![Biblioteca](./img/diagrama_relacionamento.png)
+![Biblioteca](./img/grafico_powerBI.png)
 
 ## Descrição
 
-Bem-vindo ao repositório da Biblioteca! Este projeto é um requisito do curso de Formação Web Dev Fullstack - Resilia com o intuito de colocarmos em prática todo conteúdo estudado no módulo 3 do curso.
+Bem-vindo ao repositório da Biblioteca **BookLove**! Este projeto é um requisito do curso de Formação Web Dev Fullstack - Resilia com o intuito de colocarmos em prática todo conteúdo estudado no módulo 3 do curso.
 Biblioteca é um banco de dados construído utilizando MySQL Workbench e para modelagem foi utilizado o dbDiagram, foi desenvolvido para armazenar informações sobre livros, autores e empréstimos em uma biblioteca. Aqui estão as principais informações e instruções para você começar a utilizar o projeto.
 
 ## Requisitos
@@ -12,6 +12,7 @@ Biblioteca é um banco de dados construído utilizando MySQL Workbench e para mo
 Antes de iniciar, verifique se você possui as seguintes tecnologias instaladas em sua máquina:
 
 - MySQL Workbench (versão 8.0 ou superior)
+- PowerBI
 
 ## Banco de Dados
 
@@ -31,11 +32,11 @@ O banco de dados utilizado neste projeto é o MySQL. Abaixo estão as tabelas cr
 
 ## Modelagem do Banco de Dados
 
-A modelagem do banco de dados foi feita utilizando o dbDiagram, um formato simples e intuitivo para representar a estrutura do banco de dados. Abaixo está o diagrama com todas as entidades e relacionamentos criados para este projeto:
+A modelagem do banco de dados foi feita utilizando o **dbDiagram**, um formato simples e intuitivo para representar a estrutura do banco de dados, foi adicionado também o EER (diagrama de relacionamento) criado por engenharia reversa no **MySQL Workbench** Abaixo estam os diagramas com todas as entidades e relacionamentos criados para este projeto:
 
-![Biblioteca](./img/modelagem_dbDiagram.png)
+![Biblioteca](./img/modelagem_dbDiagram.png)![Biblioteca](./img/diagrama_relacionamento.png)
 
-- Você pode verificar a estrutura, Relacionamentos aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro](https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro)
+- Você pode verificar a estrutura e relacionamentos do ***dbdiagram** aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro](https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro)
 
 ```
 Table Livro {
@@ -85,8 +86,6 @@ Table Emprestimo {
   DataDevolucao DATE
 }
 ```
-
-
 ## Como utilizar o projeto?
 
 Para começar a utilizar a Biblioteca, siga os passos abaixo:
@@ -107,10 +106,34 @@ git clone https://github.com/SuayMack/DBBiblioteca.git
 Para garantir a funcionalidade e testar o banco de dados, foram inseridos registros nas tabelas. Cada tabela possui pelo menos 5 registros, o que permite uma melhor avaliação do funcionamento da aplicação.
 Você pode verificar o código para inserir dados na tabela no arquivo `populando_db_biblioteca.sql`.
 
+## Criação do Gráfico no PowerBI
+
+O Power BI é uma poderosa ferramenta de análise de dados que permite criar visualizações interativas e informativas, como gráficos, tabelas e relatórios, a partir de fontes de dados diversas. Construir um gráfico no Power BI é uma tarefa simples e intuitiva, e pode ser feito em poucos passos:
+
+1. Importar dados: Na opção "Obter Dados" da barra de ferramentas e selecionar a fonte de dados desejada. Nesse caso, foi utilizado a opção:
+
+  - Banco de dados MySQL
+  - Nome do Servidor
+  - Nome da Biblioteca
+
+2. Escolher o tipo de gráfico: Foi utilizado uma [imagem]: [Freepik.com](Freepik.com), 3 cards, um gráfico de rosca e um gráfico de barras;
+
+3. Selecionar os dados;
+
+4. Customizar a aparência: É possível alterar cores, fontes, títulos, legendas e outros elementos visuais para tornar o gráfico mais atrativo e compreensível.
+
+5. Interatividade: O Power BI permite criar gráficos interativos que respondem às seleções feitas pelo usuário. É possível criar filtros, slicers e outras interações que permitem explorar os dados de forma dinâmica.
+
+6. Salvar e compartilhar: Você pode salvar seu trabalho e compartilhar suas visualizações com outras pessoas, aqui você tem o arquivo em **PDF** ![PDF](./pdf/grafico_biblioteca.pdf), em arquivo do tipo **Modelo PowerBI** ![pbit](./powerBI/grafico_biblioteca.pbit).
+
+Construir gráficos no Power BI é uma maneira poderosa de transformar dados em insights significativos, permitindo tomar decisões informadas e embasadas em análises visuais. Com a facilidade de uso e a variedade de opções disponíveis, o Power BI se torna uma ferramenta essencial para profissionais e empresas que desejam explorar e comunicar dados de forma eficiente.
+
 ## Referências
 
 - Documentação do MySQL Workbench: [https://dev.mysql.com/doc/workbench/en/](https://dev.mysql.com/doc/workbench/en/)
 - Documentação do dbDiagram: [https://dbdiagram.io/d](https://dbdiagram.io/d)
 - Livros: [https://www.amazon.com.br/](https://www.amazon.com.br/)
+- ChatGPT: [https://chat.openai.com/](https://chat.openai.com/)
+- PowerBI: [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/)
 
 Feito com 💜 por Priscila Chueryz
