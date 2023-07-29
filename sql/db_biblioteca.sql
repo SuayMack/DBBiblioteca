@@ -6,7 +6,7 @@ USE biblioteca;
 
 -- ***** Criando TABELAS ***** --
 -- Criando tabela Livro
-CREATE TABLE `Livro` (
+CREATE TABLE IF NOT EXISTS `Livro` (
   `ID` INT PRIMARY KEY,
   `Titulo` VARCHAR(255),
   `Genero` VARCHAR(100),
@@ -16,7 +16,7 @@ CREATE TABLE `Livro` (
 );
 
 -- Criando tabela Autor
-CREATE TABLE `Autor` (
+CREATE TABLE IF NOT EXISTS `Autor` (
   `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `Nome` VARCHAR(100),
   `DataNascimento` DATE,
@@ -25,7 +25,7 @@ CREATE TABLE `Autor` (
 );
 
 -- Criando tabela Editora
-CREATE TABLE `Editora` (
+CREATE TABLE IF NOT EXISTS `Editora` (
   `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `Nome` VARCHAR(100),
   `Endereco` VARCHAR(255),
@@ -33,7 +33,7 @@ CREATE TABLE `Editora` (
 );
 
 -- Criando tabela LivroAutorEditora
-CREATE TABLE `LivroAutorEditora` (
+CREATE TABLE IF NOT EXISTS `LivroAutorEditora` (
   `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `LivroID` INT,
   `AutorID` INT,
@@ -41,7 +41,7 @@ CREATE TABLE `LivroAutorEditora` (
 );
 
 -- Criando tabela Usuario --
-CREATE TABLE `Usuario` (
+CREATE TABLE IF NOT EXISTS `Usuario` (
   `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `Nome` VARCHAR(100),
   `Email` VARCHAR(255),
@@ -50,7 +50,7 @@ CREATE TABLE `Usuario` (
 );
 
 -- Criando tabela Emprestimo --
-CREATE TABLE `Emprestimo` (
+CREATE TABLE IF NOT EXISTS `Emprestimo` (
   `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `LivroID` INT,
   `UsuarioID` INT,
