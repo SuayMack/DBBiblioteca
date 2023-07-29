@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+nav {
+  color: #7C46A6;
+  background-color: white;
+  height: 90px;
+  padding: 10px;
 }
 
-header img {
-  width: 8rem;
+nav img {
+  width: 6rem;
+}
+
+nav ul a {
+  color: #7C46A6;
 }
