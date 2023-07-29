@@ -39,7 +39,34 @@ section p {
   padding: 20px 30px;
 }
 
-#sobre > p:nth-child(3) {
+section#sobre > p:nth-child(3) {
   width: 50%;
   text-align: center;
+}
+
+section#modelagem .row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card .card-image .card-title {
+  opacity: .6;
+}
+
+section#modelagem .row .col.s12.m5 {
+  width: 40%;
+  margin: 0;
+}
+
+section#modelagem .row .col.s12.m5 .card {
+  display: grid;
+  grid-template-rows: 232px 300px 50px;
+}
+
+span.card-title.light {
+  color: #1a1a1a !important;
 }
