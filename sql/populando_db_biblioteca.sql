@@ -7,6 +7,18 @@ VALUES
   (4, 'Database System Concepts', 'Banco de Dados', '2019-05-30', '978-0134496688', 2),
   (5, 'SQL Cookbook: Query Solutions and Techniques for All SQL Users', 'Banco de Dados', '2005-10-10', '978-0596009762', 10);
 
+-- Inserindo mais registros na tabela Livro para melhor visualização dos gráficos no Power BI
+INSERT INTO Livro (ID, Titulo, Genero, DataPublicacao, ISBN, NumExemplaresDisponiveis)
+VALUES
+  (6, 'Harry Potter e a Pedra Filosofal', 'Fantasia', '1997-06-26', '978-8532530785', 5),
+  (7, 'Harry Potter e a Câmara Secreta', 'Fantasia', '1998-07-02', '978-8532511012', 4),
+  (8, 'Harry Potter e o Prisioneiro de Azkaban', 'Fantasia', '1999-07-08', '978-8532511013', 3),
+  (9, 'Harry Potter e o Cálice de Fogo', 'Fantasia', '2000-07-08', '978-8532511014', 6),
+  (10, 'Harry Potter e a Ordem da Fênix', 'Fantasia', '2003-07-21', '978-8532529455', 7),
+  (11, 'Harry Potter e o Enigma do Príncipe', 'Fantasia', '2005-07-16', '978-8532530198', 4),
+  (12, 'Harry Potter e as Relíquias da Morte', 'Fantasia', '2007-07-21', '978-8532530789', 6);
+
+
 -- Inserindo registros na tabela Autor
 INSERT INTO Autor (ID, Nome, DataNascimento, Nacionalidade, Biografia)
 VALUES
