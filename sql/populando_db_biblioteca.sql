@@ -37,6 +37,10 @@ VALUES
   (4, 'Morgan Kaufmann', 'Massachusetts, USA', '+1 617-928-2500'),
   (5, 'O''Reilly Media', 'California, USA', '+1 800-998-9938');
 
+-- Inserindo registros na tabela Editora
+INSERT INTO Editora (Nome, Endereco, Telefone)
+VALUES ('Editora Rocco', 'Rua dos Livros, 123', '+55 11 1234-5678');
+
 -- Inserindo registros na tabela LivroAutorEditora
 INSERT INTO LivroAutorEditora (LivroID, AutorID, EditoraID)
 VALUES
