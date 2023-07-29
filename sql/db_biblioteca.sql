@@ -7,7 +7,7 @@ USE biblioteca;
 -- ***** Criando TABELAS ***** --
 -- Criando tabela Livro
 CREATE TABLE IF NOT EXISTS `Livro` (
-  `ID` INT PRIMARY KEY,
+  `ID` INT AUTO_INCREMENT PRIMARY KEY,
   `Titulo` VARCHAR(255),
   `Genero` VARCHAR(100),
   `DataPublicacao` DATE,
