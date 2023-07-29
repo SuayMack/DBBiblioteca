@@ -28,14 +28,18 @@ VALUES
   (4, 'Hector Garcia-Molina', '1954-02-25', 'Espanhol', 'Hector Garcia-Molina é um cientista da computação conhecido por suas contribuições na área de banco de dados. Ele é autor de diversos artigos e livros acadêmicos.'),
   (5, 'Anthony Molinaro', '1969-01-01', 'Americano', 'Anthony Molinaro é um especialista em banco de dados e autor de "SQL Cookbook". Ele compartilha soluções práticas e técnicas avançadas de SQL em seu livro.');
 
+-- Inserindo registros na tabela Autor do Livro Harry Potter
+INSERT INTO Autor (Nome, DataNascimento, Nacionalidade, Biografia)
+VALUES
+  ('J.K. Rowling', '1965-07-31', 'Britânica', 'J.K. Rowling é uma escritora britânica famosa por ter escrito a série de livros "Harry Potter". Ela é uma das autoras mais bem-sucedidas da história da literatura, e sua obra conquistou milhões de fãs ao redor do mundo.');
+
 -- Inserindo registros na tabela Editora
 INSERT INTO Editora (ID, Nome, Endereco, Telefone)
 VALUES
   (1, 'Prentice Hall', 'New Jersey, USA', '+1 201-236-7139'),
   (2, 'Addison-Wesley Professional', 'Massachusetts, USA', '+1 617-848-6350'),
   (3, 'O''Reilly Media', 'California, USA', '+1 800-998-9938'),
-  (4, 'Morgan Kaufmann', 'Massachusetts, USA', '+1 617-928-2500'),
-  (5, 'O''Reilly Media', 'California, USA', '+1 800-998-9938');
+  (4, 'Morgan Kaufmann', 'Massachusetts, USA', '+1 617-928-2500');
 
 -- Inserindo registros na tabela Editora
 INSERT INTO Editora (Nome, Endereco, Telefone)
