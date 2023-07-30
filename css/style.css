@@ -35,6 +35,11 @@ section {
   align-items: center;
 }
 
+section h2 {
+  align-self: baseline;
+  padding: 0 30px;
+}
+
 section p {
   padding: 20px 30px;
   text-align: justify;
@@ -84,15 +89,35 @@ section#grafico .card-image {
 
 section#grafico .card-image img {
   width: 100%;
+  transition: .6s;
+}
+
+section#grafico .card-image img:hover {
+  width: 600px;
+}
+
+section#grafico .card-action {
+  padding: 20px 30px;
 }
 
 section#grafico .card-action a {
   color: #7C46A6;
-  padding: 20px 30px;
   font-weight: 600;
+  transition: .6s;
 }
 
 section#grafico .card-action a:hover {
-  color: #874ead;
-  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+  color: #987aac;
+  font-size: large;
+  scale: 1.8;
+}
+
+footer {
+  padding: 1.8rem;
+  color: white;
+  background-color: #7C46A6;
+}
+
+footer p {
+  text-align: center;
 }
