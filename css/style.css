@@ -112,10 +112,51 @@ section#grafico .card-action a:hover {
   scale: 1.8;
 }
 
+section#arquivos .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+section#arquivos .container.arquivos {
+  padding: 0 30px;
+}
+
+section#arquivos ul.collapsible {
+  align-self: baseline;
+}
+
+section#arquivos .container a.btn-floating.pulse {
+  background-color: #7c46a6;
+}
+
+section#arquivos .container a.btn-floating.pulse i.small.material-icons {
+  background-color: #7C46A6;
+  border-radius: 50%;
+}
+
+section#arquivos .collection a,
+section#arquivos .collection i {
+  color: #7C46A6;
+}
+
+
 footer {
   padding: 1.8rem;
   color: white;
   background-color: #7C46A6;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icons {
+  width: 10%;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-around;
 }
 
 footer p {
