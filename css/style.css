@@ -15,9 +15,11 @@ body {
 }
 
 nav {  
+  position: fixed;
   background-color: white;
   height: 90px;
   padding: 10px;
+  z-index: 1000;
 }
 
 nav img {
@@ -29,7 +31,7 @@ nav ul li a {
 }
 
 section {
-  padding: 10px 30px;
+  padding: 86px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
