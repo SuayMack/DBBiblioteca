@@ -1,7 +1,7 @@
 Bem-vindo ao repositório da Biblioteca **BookLove**
 
 Você pode visualizar as imagens e fazer o download dos aquivos aqui ⬇️
-- Página HTML - [https://suaymack.github.io/DBBiblioteca/](https://powerbi.microsoft.com/](https://suaymack.github.io/DBBiblioteca/)
+- Página HTML: [https://suaymack.github.io/DBBiblioteca/](https://powerbi.microsoft.com/](https://suaymack.github.io/DBBiblioteca/)
 
 ![Biblioteca](./img/grafico_powerBI.png)
 
