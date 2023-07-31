@@ -75,6 +75,10 @@ section#modelagem .row .col.s12.m5 .card {
   grid-template-rows: 232px 300px 50px;
 }
 
+#modelagem > div > div:nth-child(2) > div > div.card-content > p {
+    margin: 30px;
+}
+
 span.card-title.light {
   color: #1a1a1a !important;
 }
