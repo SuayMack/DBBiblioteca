@@ -3,7 +3,7 @@ Bem-vindo ao repositório da Biblioteca **BookLove**
 Você pode visualizar as imagens e fazer o download dos aquivos aqui ⬇️
 - Página HTML: [https://suaymack.github.io/DBBiblioteca/](https://suaymack.github.io/DBBiblioteca/)
 
-![Biblioteca](./img/grafico_powerBI.png)
+![Biblioteca](./Model/img/grafico_powerBI.png)
 
 ## Descrição
 
@@ -37,7 +37,7 @@ O banco de dados utilizado neste projeto é o MySQL. Abaixo estão as tabelas cr
 
 A modelagem do banco de dados foi feita utilizando o **dbDiagram**, um formato simples e intuitivo para representar a estrutura do banco de dados, foi adicionado também o EER (diagrama de relacionamento) criado por engenharia reversa no **MySQL Workbench** Abaixo estam os diagramas com todas as entidades e relacionamentos criados para este projeto:
 
-![Biblioteca](./img/modelagem_dbDiagram.png)![Biblioteca](./img/diagrama_relacionamento.png)
+![Biblioteca](./Model/img/modelagem_dbDiagram.png)![Biblioteca](./Model/img/diagrama_relacionamento.png)
 
 - Você pode verificar a estrutura e relacionamentos do ***dbdiagram** aqui: [https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro](https://dbdocs.io/pry_chu/Projeto-Banco-de-Dados-Biblioteca?schema=public&view=relationships&table=Livro)
 
@@ -127,7 +127,7 @@ O Power BI é uma poderosa ferramenta de análise de dados que permite criar vis
 
 5. Interatividade: O Power BI permite criar gráficos interativos que respondem às seleções feitas pelo usuário. É possível criar filtros, slicers e outras interações que permitem explorar os dados de forma dinâmica.
 
-6. Salvar e compartilhar: Você pode salvar seu trabalho e compartilhar suas visualizações com outras pessoas, aqui você tem o arquivo em **PDF** ![PDF](./pdf/grafico_biblioteca.pdf), em arquivo do tipo **Modelo PowerBI** ![pbit](./powerBI/grafico_biblioteca.pbit).
+6. Salvar e compartilhar: Você pode salvar seu trabalho e compartilhar suas visualizações com outras pessoas, aqui você tem o arquivo em **PDF** ![PDF](./Model/pdf/grafico_biblioteca.pdf), em arquivo do tipo **Modelo PowerBI** ![pbit](./Model/powerBI/grafico_biblioteca.pbit).
 
 Construir gráficos no Power BI é uma maneira poderosa de transformar dados em insights significativos, permitindo tomar decisões informadas e embasadas em análises visuais. Com a facilidade de uso e a variedade de opções disponíveis, o Power BI se torna uma ferramenta essencial para profissionais e empresas que desejam explorar e comunicar dados de forma eficiente.
 
